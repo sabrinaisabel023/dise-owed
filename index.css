@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Parkinsans:wght@300..800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Parkinsans", sans-serif;
+    overflow-y:auto ;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,117,1) 38%, rgba(0,212,255,1) 100%); 
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.siderbar{
+    border-right: 1px solid  #95a5a6 ;
+    padding: 10px;
+    height: 90vh;
+}
+
+#div-img-perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#content-img{
+    border-radius: 100%;
+    border: 5px solid #ca6f1e ;
+}
+
+#img-perfil{
+    padding: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+#nombre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.li-menu{
+    margin-bottom: 10px;
+}
+
+.item-list{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.content-personal{
+    margin-top: 50px;
+}
+
+.box{
+    background-color:  #7f8c8d ;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#content-principal{
+    width: 100%;
+}
+
+#titulo-principal{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-central{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.text-central p{
+    width: 60%;
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color:  #f4d03f ;
+    animation:shakeX;
+    animation-duration: 1s;
+}
+
+.box-active{
+    background-color: #884ea0 ;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.box-active:hover{
+    animation:shakeX;
+    animation-duration: 1s;
+}
+
+.content-habilidades{
+    display: flex;
+    justify-content: center;
+}
+
+.grip-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 60%;
+}
+
+.box-title{
+    background-color:  #ca6f1e;
+    padding: 10px;
+    width: 250px;
+    border-radius: 40px;
+}
+
+#content-experiencia{
+    width: 100%;
+    margin-top: 15%;
+}
+
+.view-experiencia{
+    display: flex;
+    justify-content: center;
+}
+
+.card-exp{
+    background-color:  #d0d3d4 ;
+    width: 60%;
+    text-align: center;
+    border-radius: 20px;
+    color:  #2e4053 ;
+    padding: 10px;
+}
+
+.desempeno{
+    text-align: justify;
+}
+
+#datos{
+    margin-top: 20px;
+}
+
+.item{
+    display: flex;
+    gap: 10px;
+}
+
+.ocultar{
+    display: none;
+}
+
+.mostrar{
+    display: block;
+}
